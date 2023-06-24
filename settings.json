@@ -1,0 +1,302 @@
+{
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+
+  // * Custom Theme Modification: Monokai Pro: (Filter Octagon)
+  "workbench.colorCustomizations": {
+    "editor.background": "#1E1F2B",
+    "editor.lineHighlightBorder": "#ffffff15",
+    "tab.inactiveBackground": "#1E1F2B",
+    "tab.border": "#ff000000",
+    "tab.activeBackground": "#1E1F2B",
+    "editorGutter.background": "#1E1F2B",
+    "editorGroupHeader.tabsBackground": "#1E1F2B"
+  },
+
+  "files.associations": {
+    "*.scn": "json",
+    "*.setting": "lua"
+  },
+
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 1000000
+  },
+
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "prettier.singleQuote": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveshare.presence": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false, // required
+    "editor.formatOnType": false, // required
+    "editor.formatOnSave": true, // optional
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "files.autoSave": "onFocusChange" // optional but recommended
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "emmet.excludeLanguages": ["[javascript]", "markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-ui-snippets.showNotesOnStartup": false,
+  "editor.semanticTokenColorCustomizations": null,
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "runInTerminal.commands": [{}],
+  "explorer.confirmDragAndDrop": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "cSpell.userWords": [
+    "ariasalehi",
+    "Arya",
+    "Behance",
+    "Bokeh",
+    "circumspheres",
+    "cullable",
+    "DDTHH",
+    "Displex",
+    "dode",
+    "Dribbble",
+    "emasive",
+    "Fract",
+    "glsl",
+    "GLTF",
+    "gltfloader",
+    "graphiql",
+    "gsap",
+    "haspopup",
+    "HEAPU",
+    "heightfield",
+    "Heightfields",
+    "highp",
+    "Homespace",
+    "isampler",
+    "Kursor",
+    "lerp",
+    "linewidth",
+    "Linkedin",
+    "LOGDEPTHBUF",
+    "Matcap",
+    "maxblur",
+    "maxlength",
+    "metalness",
+    "middlewares",
+    "Mipmaps",
+    "morphix",
+    "mouseclick",
+    "multibody",
+    "n",
+    "neighbouring",
+    "octa",
+    "Octree",
+    "Octrees",
+    "ortographic",
+    "perlin",
+    "Phong",
+    "piment",
+    "pimentón",
+    "POLYGONIZER",
+    "QLID",
+    "Rafie",
+    "raycaster",
+    "raycasting",
+    "Rothfuss",
+    "Salehi",
+    "Sanderson",
+    "scroller",
+    "SIXCAPS",
+    "spritesheet",
+    "spritesheets",
+    "toastify",
+    "TOON",
+    "trimesh",
+    "triplanar",
+    "unfollow",
+    "uvec",
+    "Vazir",
+    "VERTEXBUFFER",
+    "voronoi",
+    "Voxel",
+    "voxels",
+    "Waterfield",
+    "Waterfields",
+    "wireframe",
+    "Worley",
+    "yoyo"
+  ],
+  "material-icon-theme.folders.color": "#6776c2",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.saturation": 1,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "powermode.enabled": true,
+  "powermode.enableShake": false,
+  "editor.fontFamily": "Consolas ligaturized v2, Consolas, Fira Code, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[glsl]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.goToDeclaration", "editor.action.openLink"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": true,
+    "<C-f>": false,
+    "<C-d>": false,
+    "<C-w>": false
+  },
+  "explorer.confirmDelete": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.gpuAcceleration": "off",
+  "vscode_vibrancy.opacity": -1,
+  "vscode_vibrancy.type": "light",
+  "bracketPairColorizer.depreciation-notice": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "clang-format.executable": "  clang-format.executable\": \"/absolute/path/to/clang-format",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Debian (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Debian"]
+    },
+    "Ubuntu-18.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu-18.04"]
+    },
+    "Ubuntu-22.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu-22.04"]
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.lineNumbers": "relative",
+  "editor.smoothScrolling": true,
+  "extension.smoothscroll.linesToScroll": 25,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "extension.smoothscroll.usePercent": false,
+  "editor.mouseWheelScrollSensitivity": 5,
+  "workbench.list.mouseWheelScrollSensitivity": 5,
+  "editor.fastScrollSensitivity": 10,
+  "workbench.list.fastScrollSensitivity": 10,
+  "workbench.layoutControl.enabled": false,
+  "[shellscript]": {
+    "editor.defaultFormatter": "shakram02.bash-beautify"
+  },
+  "git.mergeEditor": false,
+  "editor.guides.bracketPairs": true,
+  "window.commandCenter": false,
+  "editor.inlineSuggest.enabled": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "remote.downloadExtensionsLocally": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "files.exclude": {
+    "**/.next": true
+  },
+  "window.zoomLevel": 4,
+  "terminal.integrated.fontFamily": "Consolas",
+  // * remove git lens annoyance
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "lldb.suppressUpdateNotifications": true,
+  "[ahk]": {
+    "editor.defaultFormatter": "cweijan.vscode-autohotkey-plus"
+  },
+  "workbench.activityBar.visible": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "[lua]": {
+    "editor.defaultFormatter": "Koihik.vscode-lua-format"
+  }
+}
